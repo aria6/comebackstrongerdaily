@@ -1,0 +1,81 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "You lost the money. You lost the woman. You lost the man you used to be.",
+      "startFrame": 0,
+      "durationInFrames": 210,
+      "audio": "audio/vo/part1/01_hook.mp3",
+      "voDuration": 6.27,
+      "words": []
+    },
+    {
+      "id": "fall",
+      "text": "And now you wake up every day, wondering how it all fell apart so fast.",
+      "startFrame": 210,
+      "durationInFrames": 198,
+      "audio": "audio/vo/part1/02_fall.mp3",
+      "voDuration": 5.88,
+      "words": []
+    },
+    {
+      "id": "listen",
+      "text": "Listen to me. Falling is not the end. Staying down is.",
+      "startFrame": 408,
+      "durationInFrames": 180,
+      "audio": "audio/vo/part1/03_listen.mp3",
+      "voDuration": 4.31,
+      "words": []
+    },
+    {
+      "id": "others",
+      "text": "Everybody gets knocked to the ground at some point. The difference between the ones who come back, and the ones who disappear, is simple. They got up.",
+      "startFrame": 588,
+      "durationInFrames": 339,
+      "audio": "audio/vo/part1/04_others.mp3",
+      "voDuration": 10.59,
+      "words": []
+    },
+    {
+      "id": "step",
+      "text": "Not with a plan. Not with motivation. Just one small step.",
+      "startFrame": 927,
+      "durationInFrames": 151,
+      "audio": "audio/vo/part1/05_step.mp3",
+      "voDuration": 4.31,
+      "words": []
+    },
+    {
+      "id": "actions",
+      "text": "Make your bed. Drink water. Go outside. Do one thing today the broken you wouldn't do. Then do it again tomorrow.",
+      "startFrame": 1078,
+      "durationInFrames": 270,
+      "audio": "audio/vo/part1/06_actions.mp3",
+      "voDuration": 8.24,
+      "words": []
+    },
+    {
+      "id": "losing",
+      "text": "You don't need to win everything back this week. You just need to stop losing to yourself.",
+      "startFrame": 1348,
+      "durationInFrames": 222,
+      "audio": "audio/vo/part1/07_losing.mp3",
+      "voDuration": 6.67,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "The ground is not your home. It's where you start pushing from. So, get up.",
+      "startFrame": 1570,
+      "durationInFrames": 230,
+      "audio": "audio/vo/part1/08_outro.mp3",
+      "voDuration": 5.88,
+      "words": []
+    }
+  ]
+}

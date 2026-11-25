@@ -1,0 +1,48 @@
+{
+  "title": "You're Allowed to Fall. You're Not Allowed to Stay Down.",
+  "voice": "en-US-ChristopherNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "hook",
+      "minSeconds": 6,
+      "text": "You lost the money. You lost the woman. You lost the man you used to be."
+    },
+    {
+      "id": "fall",
+      "minSeconds": 6,
+      "text": "And now you wake up every day, wondering how it all fell apart so fast."
+    },
+    {
+      "id": "listen",
+      "minSeconds": 6,
+      "text": "Listen to me. Falling is not the end. Staying down is."
+    },
+    {
+      "id": "others",
+      "minSeconds": 9,
+      "text": "Everybody gets knocked to the ground at some point. The difference between the ones who come back, and the ones who disappear, is simple. They got up."
+    },
+    {
+      "id": "step",
+      "minSeconds": 5,
+      "text": "Not with a plan. Not with motivation. Just one small step."
+    },
+    {
+      "id": "actions",
+      "minSeconds": 9,
+      "text": "Make your bed. Drink water. Go outside. Do one thing today the broken you wouldn't do. Then do it again tomorrow."
+    },
+    {
+      "id": "losing",
+      "minSeconds": 6,
+      "text": "You don't need to win everything back this week. You just need to stop losing to yourself."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 6,
+      "text": "The ground is not your home. It's where you start pushing from. So, get up."
+    }
+  ]
+}
