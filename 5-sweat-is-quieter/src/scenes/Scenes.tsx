@@ -358,8 +358,7 @@ export const OutroScene: React.FC<SP> = () => {
           })}
         <Figure pose={pose} x={540} ground={1328} scale={1.1} color={gold ? C.gold : C.bone} back={gold ? C.goldDark : C.boneDark} glow={gold ? "rgba(240,138,60,0.7)" : undefined} />
       </Stage>
-      <Sfx at={carry} name="rise" volume={0.35} />
-      <Sfx at={lighter} name="impact" volume={0.7} />
+      <Sfx at={lighter} name="check" volume={0.25} />
     </>
   );
 };
