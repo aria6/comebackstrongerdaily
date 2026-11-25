@@ -1,0 +1,81 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "loud",
+      "text": "When everything falls apart, your head becomes the loudest place in the world. Regret. Shame. What-ifs. All night long.",
+      "startFrame": 0,
+      "durationInFrames": 240,
+      "audio": "audio/vo/part1/01_loud.mp3",
+      "voDuration": 6.79,
+      "words": []
+    },
+    {
+      "id": "quiet",
+      "text": "Here's something nobody tells you. Your thoughts are loud. But sweat is quieter.",
+      "startFrame": 240,
+      "durationInFrames": 176,
+      "audio": "audio/vo/part1/02_quiet.mp3",
+      "voDuration": 4.64,
+      "words": []
+    },
+    {
+      "id": "run",
+      "text": "When you run until your lungs burn, there's no room for overthinking.",
+      "startFrame": 416,
+      "durationInFrames": 194,
+      "audio": "audio/vo/part1/03_run.mp3",
+      "voDuration": 4.29,
+      "words": []
+    },
+    {
+      "id": "rep",
+      "text": "On your last rep, you're not thinking about her, or the money, or what people say. You're just there. Present. Fighting.",
+      "startFrame": 610,
+      "durationInFrames": 260,
+      "audio": "audio/vo/part1/04_rep.mp3",
+      "voDuration": 7.5,
+      "words": []
+    },
+    {
+      "id": "clarity",
+      "text": "Exercise won't fix your problems. But it gives you the clarity to fix them yourself. A clear head makes better moves than a tired one.",
+      "startFrame": 870,
+      "durationInFrames": 303,
+      "audio": "audio/vo/part1/05_clarity.mp3",
+      "voDuration": 8.93,
+      "words": []
+    },
+    {
+      "id": "wait",
+      "text": "Don't wait until you feel like it. You won't. Lace up anyway.",
+      "startFrame": 1173,
+      "durationInFrames": 194,
+      "audio": "audio/vo/part1/06_wait.mp3",
+      "voDuration": 4.29,
+      "words": []
+    },
+    {
+      "id": "daily",
+      "text": "Thirty minutes. Every single day. No excuses. Walk, run, lift, whatever you've got.",
+      "startFrame": 1367,
+      "durationInFrames": 194,
+      "audio": "audio/vo/part1/07_daily.mp3",
+      "voDuration": 4.64,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "Your mind is heavy. Let your body carry some of that weight. Then watch how much lighter everything gets.",
+      "startFrame": 1561,
+      "durationInFrames": 239,
+      "audio": "audio/vo/part1/08_outro.mp3",
+      "voDuration": 6.79,
+      "words": []
+    }
+  ]
+}

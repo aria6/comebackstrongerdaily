@@ -1,0 +1,48 @@
+{
+  "title": "Exercise Is the Medicine Nobody Prescribes",
+  "voice": "en-US-AndrewNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "loud",
+      "minSeconds": 7,
+      "text": "When everything falls apart, your head becomes the loudest place in the world. Regret. Shame. What-ifs. All night long."
+    },
+    {
+      "id": "quiet",
+      "minSeconds": 5,
+      "text": "Here's something nobody tells you. Your thoughts are loud. But sweat is quieter."
+    },
+    {
+      "id": "run",
+      "minSeconds": 6,
+      "text": "When you run until your lungs burn, there's no room for overthinking."
+    },
+    {
+      "id": "rep",
+      "minSeconds": 8,
+      "text": "On your last rep, you're not thinking about her, or the money, or what people say. You're just there. Present. Fighting."
+    },
+    {
+      "id": "clarity",
+      "minSeconds": 7,
+      "text": "Exercise won't fix your problems. But it gives you the clarity to fix them yourself. A clear head makes better moves than a tired one."
+    },
+    {
+      "id": "wait",
+      "minSeconds": 6,
+      "text": "Don't wait until you feel like it. You won't. Lace up anyway."
+    },
+    {
+      "id": "daily",
+      "minSeconds": 6,
+      "text": "Thirty minutes. Every single day. No excuses. Walk, run, lift, whatever you've got."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 7,
+      "text": "Your mind is heavy. Let your body carry some of that weight. Then watch how much lighter everything gets."
+    }
+  ]
+}
