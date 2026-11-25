@@ -354,7 +354,64 @@ export const RealizeScene: React.FC<SP> = () => {
   );
 };
 
-/* ---------- 8. OUTRO: don't beg. build. ---------- */
+/* ---------- 8. REBUILD: body, bank, life ---------- */
+export const RebuildScene: React.FC<SP> = () => {
+  const { frame, fps } = useF();
+  const slabs = [
+    { w: "body", f: 30, label: "Body", Icon: DumbbellIcon },
+    { w: "bank", f: 60, label: "Bank account", Icon: () => <MoneyIcon size={130} /> },
+    { w: "life", f: 100, label: "A life", Icon: PeaceIcon },
+  ].map((s) => ({ ...s, at: wordFrame("rebuild", s.w, s.f) }));
+  const you = wordFrame("rebuild", "you", 150, 2); // "your", "your", lalu "you"
+  const her = wordFrame("rebuild", "her", 175);
+  return (
+    <>
+      <Title lines={[{ text: "Don't beg.", color: C.red }]} size={150} at={0} />
+      <Big top={450} size={130} color={C.gold} s={pop(frame, you - 4, fps)}>
+        For you.
+      </Big>
+      <div style={{ position: "absolute", top: 600, width: "100%", textAlign: "center", fontFamily: body, fontWeight: 700, fontSize: 52, letterSpacing: 8, color: C.dim, opacity: fadeIn(frame, her - 4) }}>
+        NOT FOR HER
+      </div>
+      {slabs.map((s, i) => {
+        const p = prog(frame, s.at - 8, s.at + 4);
+        const top = 1130 - i * 215;
+        return (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              top: top - (1 - p) * 500,
+              left: 110 + i * 20,
+              width: 860 - i * 40,
+              height: 200,
+              borderRadius: 18,
+              background: `linear-gradient(180deg, ${C.gold}, ${C.goldDark})`,
+              boxShadow: "0 18px 40px rgba(0,0,0,0.5)",
+              display: "flex",
+              alignItems: "center",
+              gap: 30,
+              padding: "0 40px",
+              opacity: p,
+            }}
+          >
+            <div style={{ width: 130, height: 130, borderRadius: 24, background: C.bg, display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <s.Icon size={110} />
+            </div>
+            <div style={{ fontFamily: display, fontSize: 96, color: C.bg, textTransform: "uppercase" }}>{s.label}</div>
+            <Sfx at={s.at + 2} name="impact" volume={0.4} />
+          </div>
+        );
+      })}
+      <Stage>
+        <line x1={40} y1={1334} x2={1040} y2={1334} stroke={C.gold} strokeWidth={8} opacity={0.8} />
+      </Stage>
+      <Sfx at={you - 4} name="check" volume={0.4} />
+    </>
+  );
+};
+
+/* ---------- 9. OUTRO: don't beg. build. ---------- */
 export const OutroScene: React.FC<SP> = () => {
   const { frame, fps } = useF();
   const beg = wordFrame("outro", "beg", 10);

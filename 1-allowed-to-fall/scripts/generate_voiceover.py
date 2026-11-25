@@ -137,8 +137,15 @@ async def build_part(narr_path: Path):
         frame += frames
     target_frames = int(round(target * fps))
     if frame < target_frames:
-        scenes[-1]["durationInFrames"] += target_frames - frame
-        frame = target_frames
+        # sisa waktu dibagi rata jadi jeda antar kalimat (bukan ditumpuk di akhir
+        # video, supaya 10 detik terakhir tidak kosong)
+        extra = target_frames - frame
+        n = len(scenes)
+        frame = 0
+        for i, s in enumerate(scenes):
+            s["durationInFrames"] += extra // n + (1 if i < extra % n else 0)
+            s["startFrame"] = frame
+            frame += s["durationInFrames"]
 
     TIMING_DIR.mkdir(parents=True, exist_ok=True)
     out_path = TIMING_DIR / f"{part}.json"

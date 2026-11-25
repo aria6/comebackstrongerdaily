@@ -4,7 +4,7 @@ import { clamp } from "./anim";
 import { Captions } from "./components/Captions";
 import { Background, SceneWrapper, Sfx, TopBadge } from "./components/Layout";
 import { assetsReady, PartId, timings } from "./data/timing";
-import { EnergyScene, HookScene, HurtsScene, LifeScene, MinuteScene, OutroScene, RealizeScene, StopScene } from "./scenes/Scenes";
+import { EnergyScene, HookScene, HurtsScene, LifeScene, MinuteScene, OutroScene, RealizeScene, RebuildScene, StopScene } from "./scenes/Scenes";
 import { display } from "./theme";
 
 const SCENES: Record<string, React.FC<{ duration: number }>> = {
@@ -15,6 +15,7 @@ const SCENES: Record<string, React.FC<{ duration: number }>> = {
   minute: MinuteScene,
   energy: EnergyScene,
   realize: RealizeScene,
+  rebuild: RebuildScene,
   outro: OutroScene,
 };
 

@@ -40,8 +40,13 @@
       "text": "One day you'll realize her leaving wasn't the moment you lost everything. It was the moment you got yourself back."
     },
     {
+      "id": "rebuild",
+      "minSeconds": 7,
+      "text": "Don't beg. Build your body. Build your bank account. Build a life nobody can walk away from. This time, for you. Not for her."
+    },
+    {
       "id": "outro",
-      "minSeconds": 5,
+      "minSeconds": 4,
       "text": "Don't beg. Build."
     }
   ]
