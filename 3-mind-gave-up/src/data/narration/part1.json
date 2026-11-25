@@ -1,0 +1,48 @@
+{
+  "title": "Your Body Is Weak Because Your Mind Gave Up First",
+  "voice": "en-US-AndrewNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "hook",
+      "minSeconds": 6,
+      "text": "Look at yourself. Tired all the time. Can't sleep. Out of breath on the stairs."
+    },
+    {
+      "id": "mind",
+      "minSeconds": 7,
+      "text": "You think your body is failing you. It's not. Your mind gave up first, and your body just followed orders."
+    },
+    {
+      "id": "good",
+      "minSeconds": 7,
+      "text": "Here's the good news. It works the other way too. Move your body, and your mind starts to follow."
+    },
+    {
+      "id": "nogym",
+      "minSeconds": 5,
+      "text": "You don't need a gym. You don't need the perfect program."
+    },
+    {
+      "id": "pushup",
+      "minSeconds": 8,
+      "text": "Get on the floor right now and do ten push-ups. Can't do ten? Do three. Tomorrow, do four."
+    },
+    {
+      "id": "habits",
+      "minSeconds": 8,
+      "text": "Walk twenty minutes a day. Sleep at the same time every night. Cut the junk that keeps you numb."
+    },
+    {
+      "id": "strength",
+      "minSeconds": 8,
+      "text": "Strength comes back faster than you think. Every rep, every walk, every early night is proof you're not finished."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 6,
+      "text": "A strong body builds a strong mind. And a strong mind never stays down. Start today."
+    }
+  ]
+}

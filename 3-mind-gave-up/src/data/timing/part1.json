@@ -1,0 +1,81 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Look at yourself. Tired all the time. Can't sleep. Out of breath on the stairs.",
+      "startFrame": 0,
+      "durationInFrames": 194,
+      "audio": "audio/vo/part1/01_hook.mp3",
+      "voDuration": 5.36,
+      "words": []
+    },
+    {
+      "id": "mind",
+      "text": "You think your body is failing you. It's not. Your mind gave up first, and your body just followed orders.",
+      "startFrame": 194,
+      "durationInFrames": 248,
+      "audio": "audio/vo/part1/02_mind.mp3",
+      "voDuration": 7.14,
+      "words": []
+    },
+    {
+      "id": "good",
+      "text": "Here's the good news. It works the other way too. Move your body, and your mind starts to follow.",
+      "startFrame": 442,
+      "durationInFrames": 237,
+      "audio": "audio/vo/part1/03_good.mp3",
+      "voDuration": 6.79,
+      "words": []
+    },
+    {
+      "id": "nogym",
+      "text": "You don't need a gym. You don't need the perfect program.",
+      "startFrame": 679,
+      "durationInFrames": 162,
+      "audio": "audio/vo/part1/04_nogym.mp3",
+      "voDuration": 3.93,
+      "words": []
+    },
+    {
+      "id": "pushup",
+      "text": "Get on the floor right now and do ten push-ups. Can't do ten? Do three. Tomorrow, do four.",
+      "startFrame": 841,
+      "durationInFrames": 252,
+      "audio": "audio/vo/part1/05_pushup.mp3",
+      "voDuration": 6.43,
+      "words": []
+    },
+    {
+      "id": "habits",
+      "text": "Walk twenty minutes a day. Sleep at the same time every night. Cut the junk that keeps you numb.",
+      "startFrame": 1093,
+      "durationInFrames": 252,
+      "audio": "audio/vo/part1/06_habits.mp3",
+      "voDuration": 6.79,
+      "words": []
+    },
+    {
+      "id": "strength",
+      "text": "Strength comes back faster than you think. Every rep, every walk, every early night is proof you're not finished.",
+      "startFrame": 1345,
+      "durationInFrames": 251,
+      "audio": "audio/vo/part1/07_strength.mp3",
+      "voDuration": 6.79,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "A strong body builds a strong mind. And a strong mind never stays down. Start today.",
+      "startFrame": 1596,
+      "durationInFrames": 204,
+      "audio": "audio/vo/part1/08_outro.mp3",
+      "voDuration": 5.71,
+      "words": []
+    }
+  ]
+}
