@@ -1,0 +1,43 @@
+{
+  "title": "Negative Net Worth Is Not an Excuse. It's Your Starting Line.",
+  "voice": "en-US-AndrewNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "hook",
+      "minSeconds": 7,
+      "text": "Your account is in the red. The debt is bigger than anything you own. Every phone call feels like another bill you can't pay."
+    },
+    {
+      "id": "hide",
+      "minSeconds": 6,
+      "text": "So you hide. You ignore the messages. You pretend it'll go away. It won't."
+    },
+    {
+      "id": "paper",
+      "minSeconds": 8,
+      "text": "Here's what a man does. He sits down, grabs a piece of paper, and writes down every single debt. Every name. Every number."
+    },
+    {
+      "id": "attack",
+      "minSeconds": 8,
+      "text": "He faces it. Then he picks the smallest one and attacks it. Pay it off. Cross it out. Move to the next."
+    },
+    {
+      "id": "number",
+      "minSeconds": 7,
+      "text": "Debt is just a number. It's not who you are. It's not your name, and it's not your future."
+    },
+    {
+      "id": "minus",
+      "minSeconds": 7,
+      "text": "Starting from zero is hard. Starting from minus is harder. But it's still a start."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 8,
+      "text": "Every payment you make is a piece of your freedom coming back. So grab the paper. Write it down. Tonight."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "Your account is in the red. The debt is bigger than anything you own. Every phone call feels like another bill you can't pay.",
+      "startFrame": 0,
+      "durationInFrames": 300,
+      "audio": "audio/vo/part1/01_hook.mp3",
+      "voDuration": 8.57,
+      "words": []
+    },
+    {
+      "id": "hide",
+      "text": "So you hide. You ignore the messages. You pretend it'll go away. It won't.",
+      "startFrame": 300,
+      "durationInFrames": 200,
+      "audio": "audio/vo/part1/02_hide.mp3",
+      "voDuration": 5.0,
+      "words": []
+    },
+    {
+      "id": "paper",
+      "text": "Here's what a man does. He sits down, grabs a piece of paper, and writes down every single debt. Every name. Every number.",
+      "startFrame": 500,
+      "durationInFrames": 288,
+      "audio": "audio/vo/part1/03_paper.mp3",
+      "voDuration": 8.21,
+      "words": []
+    },
+    {
+      "id": "attack",
+      "text": "He faces it. Then he picks the smallest one and attacks it. Pay it off. Cross it out. Move to the next.",
+      "startFrame": 788,
+      "durationInFrames": 277,
+      "audio": "audio/vo/part1/04_attack.mp3",
+      "voDuration": 7.86,
+      "words": []
+    },
+    {
+      "id": "number",
+      "text": "Debt is just a number. It's not who you are. It's not your name, and it's not your future.",
+      "startFrame": 1065,
+      "durationInFrames": 245,
+      "audio": "audio/vo/part1/05_number.mp3",
+      "voDuration": 6.79,
+      "words": []
+    },
+    {
+      "id": "minus",
+      "text": "Starting from zero is hard. Starting from minus is harder. But it's still a start.",
+      "startFrame": 1310,
+      "durationInFrames": 230,
+      "audio": "audio/vo/part1/06_minus.mp3",
+      "voDuration": 5.36,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "Every payment you make is a piece of your freedom coming back. So grab the paper. Write it down. Tonight.",
+      "startFrame": 1540,
+      "durationInFrames": 260,
+      "audio": "audio/vo/part1/07_outro.mp3",
+      "voDuration": 7.14,
+      "words": []
+    }
+  ]
+}
