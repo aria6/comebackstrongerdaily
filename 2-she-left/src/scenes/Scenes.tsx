@@ -399,7 +399,7 @@ export const RebuildScene: React.FC<SP> = () => {
               <s.Icon size={110} />
             </div>
             <div style={{ fontFamily: display, fontSize: 96, color: C.bg, textTransform: "uppercase" }}>{s.label}</div>
-            <Sfx at={s.at + 2} name="impact" volume={0.4} />
+            <Sfx at={s.at + 2} name="check" volume={0.25} />
           </div>
         );
       })}
@@ -454,9 +454,7 @@ export const OutroScene: React.FC<SP> = () => {
         <Figure pose={POSES.fist} x={210} ground={1328} scale={1.0} color={C.gold} back={C.goldDark} glow="rgba(240,138,60,0.7)" opacity={fadeIn(frame, build - 6)} />
         <Figure pose={POSES.slump} x={210} ground={1328} scale={1.0} opacity={1 - fadeIn(frame, build - 6)} />
       </Stage>
-      <Sfx at={beg} name="impact" volume={0.35} />
-      <Sfx at={build - 26} name="rise" volume={0.45} />
-      <Sfx at={build} name="impact" volume={0.7} />
+      <Sfx at={build} name="check" volume={0.25} />
     </>
   );
 };

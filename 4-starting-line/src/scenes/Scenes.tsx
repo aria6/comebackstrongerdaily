@@ -367,8 +367,7 @@ export const OutroScene: React.FC<SP> = () => {
         Tonight.
       </Big>
       <Sfx at={freedom} name="check" volume={0.45} />
-      <Sfx at={tonight - 28} name="rise" volume={0.45} />
-      <Sfx at={tonight} name="impact" volume={0.7} />
+      <Sfx at={tonight} name="check" volume={0.25} />
     </>
   );
 };
