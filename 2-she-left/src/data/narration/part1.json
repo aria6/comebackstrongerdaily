@@ -1,0 +1,48 @@
+{
+  "title": "She Left When You Fell? Good. Now You Know.",
+  "voice": "en-US-AndrewNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "hook",
+      "minSeconds": 7,
+      "text": "She left when the money ran out. When the car was gone. When you couldn't be the man in the pictures anymore."
+    },
+    {
+      "id": "hurts",
+      "minSeconds": 5,
+      "text": "It hurts. I know. But stop calling it a loss. It was a lesson."
+    },
+    {
+      "id": "life",
+      "minSeconds": 7,
+      "text": "Some people love the life you give them, not the man you are. Now you know the difference."
+    },
+    {
+      "id": "stop",
+      "minSeconds": 6,
+      "text": "Stop checking her stories. Stop rehearsing what you'd say if she came back."
+    },
+    {
+      "id": "minute",
+      "minSeconds": 7,
+      "text": "Every minute spent on someone who walked away is a minute stolen from the man you're about to become."
+    },
+    {
+      "id": "energy",
+      "minSeconds": 6,
+      "text": "Put that energy into your body. Into your work. Into your peace."
+    },
+    {
+      "id": "realize",
+      "minSeconds": 8,
+      "text": "One day you'll realize her leaving wasn't the moment you lost everything. It was the moment you got yourself back."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 5,
+      "text": "Don't beg. Build."
+    }
+  ]
+}

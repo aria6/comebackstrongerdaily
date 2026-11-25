@@ -1,0 +1,81 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "She left when the money ran out. When the car was gone. When you couldn't be the man in the pictures anymore.",
+      "startFrame": 0,
+      "durationInFrames": 275,
+      "audio": "audio/vo/part1/01_hook.mp3",
+      "voDuration": 8.46,
+      "words": []
+    },
+    {
+      "id": "hurts",
+      "text": "It hurts. I know. But stop calling it a loss. It was a lesson.",
+      "startFrame": 275,
+      "durationInFrames": 183,
+      "audio": "audio/vo/part1/02_hurts.mp3",
+      "voDuration": 5.38,
+      "words": []
+    },
+    {
+      "id": "life",
+      "text": "Some people love the life you give them, not the man you are. Now you know the difference.",
+      "startFrame": 458,
+      "durationInFrames": 229,
+      "audio": "audio/vo/part1/03_life.mp3",
+      "voDuration": 6.92,
+      "words": []
+    },
+    {
+      "id": "stop",
+      "text": "Stop checking her stories. Stop rehearsing what you'd say if she came back.",
+      "startFrame": 687,
+      "durationInFrames": 180,
+      "audio": "audio/vo/part1/04_stop.mp3",
+      "voDuration": 5.0,
+      "words": []
+    },
+    {
+      "id": "minute",
+      "text": "Every minute spent on someone who walked away is a minute stolen from the man you're about to become.",
+      "startFrame": 867,
+      "durationInFrames": 241,
+      "audio": "audio/vo/part1/05_minute.mp3",
+      "voDuration": 7.31,
+      "words": []
+    },
+    {
+      "id": "energy",
+      "text": "Put that energy into your body. Into your work. Into your peace.",
+      "startFrame": 1108,
+      "durationInFrames": 180,
+      "audio": "audio/vo/part1/06_energy.mp3",
+      "voDuration": 4.62,
+      "words": []
+    },
+    {
+      "id": "realize",
+      "text": "One day you'll realize her leaving wasn't the moment you lost everything. It was the moment you got yourself back.",
+      "startFrame": 1288,
+      "durationInFrames": 252,
+      "audio": "audio/vo/part1/07_realize.mp3",
+      "voDuration": 7.69,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "Don't beg. Build.",
+      "startFrame": 1540,
+      "durationInFrames": 260,
+      "audio": "audio/vo/part1/08_outro.mp3",
+      "voDuration": 1.15,
+      "words": []
+    }
+  ]
+}
