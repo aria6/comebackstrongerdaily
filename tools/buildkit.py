@@ -131,7 +131,11 @@ MAX_TAGS = 5  # batas hashtag Instagram (berlaku Des 2025)
 
 
 def caption_parts(comp: str, c: dict):
-    """-> (judul, teks caption + hashtag, list hashtag tanpa '#')"""
+    """-> (judul, teks caption + hashtag, list hashtag tanpa '#')
+
+    Opsional di caption.json: "signature" (baris penutup, mis. "- Comeback Stronger Daily")
+    dan "hashtagsInText": false (hashtag hanya disimpan di meta .json, tidak ikut di .txt).
+    """
     title = c["title"].strip()
     tags = [t.strip().lstrip("#") for t in c["hashtags"]]
     if len(title) > MAX_TITLE:
@@ -139,8 +143,12 @@ def caption_parts(comp: str, c: dict):
     if len(tags) > MAX_TAGS:
         sys.exit(f"caption.json [{comp}]: {len(tags)} hashtag (maks {MAX_TAGS}).")
     body = c["caption"]
-    body = "\n".join(body) if isinstance(body, list) else body.strip()
-    text = f"{body}\n\n{' '.join('#' + t for t in tags)}"
+    body = "\n".join(body) if isinstance(body, list) else body.strip()  # "" di list = baris kosong
+    text = body
+    if c.get("signature"):
+        text += f"\n\n{c['signature'].strip()}"
+    if c.get("hashtagsInText", True):
+        text += f"\n\n{' '.join('#' + t for t in tags)}"
     return title, text, tags
 
 
