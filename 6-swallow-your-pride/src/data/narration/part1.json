@@ -1,0 +1,48 @@
+{
+  "title": "Start Small. Swallow Your Pride.",
+  "voice": "en-US-AndrewNeural",
+  "fps": 30,
+  "targetSeconds": 60,
+  "scenes": [
+    {
+      "id": "boss",
+      "minSeconds": 6,
+      "text": "You used to be the boss. Nice office. Nice car. People calling you sir."
+    },
+    {
+      "id": "now",
+      "minSeconds": 8,
+      "text": "Now you're thinking about selling coffee on the street, or fixing things for cash. And your pride says, that's beneath me."
+    },
+    {
+      "id": "pride",
+      "minSeconds": 6,
+      "text": "Let me be honest. Pride is the most expensive thing a broke man can own."
+    },
+    {
+      "id": "small",
+      "minSeconds": 7,
+      "text": "Every empire started small. Every comeback started with work nobody respected."
+    },
+    {
+      "id": "use",
+      "minSeconds": 8,
+      "text": "Use what you know. Sell what you can. Start with what's in your hands today, not what you had five years ago."
+    },
+    {
+      "id": "talk",
+      "minSeconds": 7,
+      "text": "Will people talk? Yes. Will old friends look away? Probably. Let them."
+    },
+    {
+      "id": "paying",
+      "minSeconds": 6,
+      "text": "They're not paying your debts. They're not building your future. You are."
+    },
+    {
+      "id": "outro",
+      "minSeconds": 9,
+      "text": "Small money is still money. Five dollars today beats zero dollars waiting for the perfect job. Swallow your pride. Then go get your life back."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "generated": false,
+  "fps": 30,
+  "lead": 0.25,
+  "rate": "+0%",
+  "totalFrames": 1800,
+  "scenes": [
+    {
+      "id": "boss",
+      "text": "You used to be the boss. Nice office. Nice car. People calling you sir.",
+      "startFrame": 0,
+      "durationInFrames": 186,
+      "audio": "audio/vo/part1/01_boss.mp3",
+      "voDuration": 5.0,
+      "words": []
+    },
+    {
+      "id": "now",
+      "text": "Now you're thinking about selling coffee on the street, or fixing things for cash. And your pride says, that's beneath me.",
+      "startFrame": 186,
+      "durationInFrames": 252,
+      "audio": "audio/vo/part1/02_now.mp3",
+      "voDuration": 7.5,
+      "words": []
+    },
+    {
+      "id": "pride",
+      "text": "Let me be honest. Pride is the most expensive thing a broke man can own.",
+      "startFrame": 438,
+      "durationInFrames": 188,
+      "audio": "audio/vo/part1/03_pride.mp3",
+      "voDuration": 5.36,
+      "words": []
+    },
+    {
+      "id": "small",
+      "text": "Every empire started small. Every comeback started with work nobody respected.",
+      "startFrame": 626,
+      "durationInFrames": 216,
+      "audio": "audio/vo/part1/04_small.mp3",
+      "voDuration": 3.93,
+      "words": []
+    },
+    {
+      "id": "use",
+      "text": "Use what you know. Sell what you can. Start with what's in your hands today, not what you had five years ago.",
+      "startFrame": 842,
+      "durationInFrames": 263,
+      "audio": "audio/vo/part1/05_use.mp3",
+      "voDuration": 7.86,
+      "words": []
+    },
+    {
+      "id": "talk",
+      "text": "Will people talk? Yes. Will old friends look away? Probably. Let them.",
+      "startFrame": 1105,
+      "durationInFrames": 216,
+      "audio": "audio/vo/part1/06_talk.mp3",
+      "voDuration": 4.29,
+      "words": []
+    },
+    {
+      "id": "paying",
+      "text": "They're not paying your debts. They're not building your future. You are.",
+      "startFrame": 1321,
+      "durationInFrames": 185,
+      "audio": "audio/vo/part1/07_paying.mp3",
+      "voDuration": 4.29,
+      "words": []
+    },
+    {
+      "id": "outro",
+      "text": "Small money is still money. Five dollars today beats zero dollars waiting for the perfect job. Swallow your pride. Then go get your life back.",
+      "startFrame": 1506,
+      "durationInFrames": 294,
+      "audio": "audio/vo/part1/08_outro.mp3",
+      "voDuration": 8.93,
+      "words": []
+    }
+  ]
+}
